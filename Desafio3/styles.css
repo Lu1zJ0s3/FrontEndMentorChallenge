@@ -21,3 +21,14 @@ body {
     align-items: center;
     min-height: 100vh;
 }
+
+.perguntas {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.perguntas button {
+    border: none;
+    background-color:  hsl(275, 100%, 97%);
+}
