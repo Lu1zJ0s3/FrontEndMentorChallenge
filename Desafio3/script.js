@@ -1,12 +1,10 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const botao = document.getElementById('botao1');
+const btt1 = document.getElementById("btt1");
+const icone = document.getElementById("icone");
 
-  if (!botao) {
-    console.error('Elemento #botao1 não encontrado');
-    return;
-  }
-
-  botao.addEventListener('click', () => {
-    alert('Botão clicado!');
-  });
+btt1.addEventListener("click", () => {
+    if (icone.src.includes("icon-plus.svg")) {
+        icone.src = "img/icon-minus.svg";
+    } else {
+        icone.src = "img/icon-plus.svg";
+    }
 });
