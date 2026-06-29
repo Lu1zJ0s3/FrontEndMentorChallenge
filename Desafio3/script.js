@@ -7,6 +7,13 @@ botoes.forEach((botao) => {
         const containerPergunta = botao.closest(".perguntas");
         const resposta = containerPergunta.nextElementSibling;
 
+        botoes.forEach((outroBtn) => {
+            if (outroBtn !== botao) {
+                outroBtn.querySelector(".icone").setAttribute("src", "img/icon-plus.svg");
+                outroBtn.closest(".perguntas").nextElementSibling.style.display = "none";
+            }
+        });
+
         if (icone.getAttribute("src") === "img/icon-plus.svg") {
             icone.setAttribute("src", "img/icon-minus.svg");
             resposta.style.display = "block"; 
