@@ -25,7 +25,8 @@ body {
     justify-content: space-evenly;
     align-items: center;
     width: 40%;
-    height: 70vh;   
+    padding: 30px 0;
+    gap: 20px;   
 }
 
 .perguntas {
