@@ -5,7 +5,7 @@ botoes.forEach((botao) => {
         
         const icone = botao.querySelector(".icone");
         const containerPergunta = botao.closest(".perguntas");
-        const resposta = containerPergunta.querySelector(".resposta");
+        const resposta = containerPergunta.nextElementSibling;
 
         if (icone.getAttribute("src") === "img/icon-plus.svg") {
             icone.setAttribute("src", "img/icon-minus.svg");
