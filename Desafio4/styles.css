@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 3rem;
+}
+
+.nav-links {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: hsl(218, 28%, 13%);
+    color: hsl(0, 0%, 100%);
+}
+
