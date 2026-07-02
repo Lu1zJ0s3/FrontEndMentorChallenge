@@ -1,104 +1,142 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-  <link rel="stylesheet" href="styles.css">
-  <title>Desafio 4</title>
-</head>
-<body>
-  <header>
-    <div class="logo">
-      <img src="img/logo.svg" alt="Fylo Logo">
-    </div>
-    <div class="nav-links">
-      <p>Features</p>
-      <p>Team</p>
-      <p>Sign In</p>
-    </div>
-  </header>
-  <img class="imagem1" src="img/illustration-intro.png" alt="Imagem 1">
-  All your files in one secure location, accessible anywhere.
+  <!DOCTYPE html>
+  <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Fylo</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/logo.svg" alt="Logo Fylo">
+      </div>
+      <nav class="navegacao-links">
+        <a href="#">Recursos</a>
+        <a href="#">Equipe</a>
+        <a href="#">Entrar</a>
+      </nav>
+    </header>
 
-  Fylo stores all your most important files in one secure location. Access them wherever 
-  you need, share and collaborate with friends family, and co-workers.
+    <section class="hero">
+      <div class="hero-conteudo">
+        <img src="img/illustration-intro.png" alt="Ilustração" class="hero-imagem">
+        <h1>Todos os seus arquivos em um local seguro e acessível em qualquer lugar.</h1>
+        <p>O Fylo armazena todos os seus arquivos mais importantes em um local seguro. Acesse-os de onde precisar, compartilhe e colabore com amigos, família e colegas de trabalho.</p>
+        <button class="botao-primario" id="btn-comecar">Comece Agora</button>
+      </div>
+    </section>
 
-  Get Started
+    <section class="recursos">
+      <div class="cartao-recurso">
+        <img src="img/icon-access-anywhere.svg" alt="Acesso" class="icone-recurso">
+        <h3>Acesse seus arquivos em qualquer lugar</h3>
+        <p>A capacidade de usar um smartphone, tablet ou computador para acessar sua conta significa que seus arquivos o acompanham em qualquer lugar.</p>
+      </div>
+      <div class="cartao-recurso">
+        <img src="img/icon-security.svg" alt="Segurança" class="icone-recurso">
+        <h3>Segurança em que você pode confiar</h3>
+        <p>A autenticação de dois fatores e a criptografia controlada pelo usuário são apenas alguns dos recursos de segurança que permitimos para ajudar a proteger seus arquivos.</p>
+      </div>
+      <div class="cartao-recurso">
+        <img src="img/icon-collaboration.svg" alt="Colaboração" class="icone-recurso">
+        <h3>Colaboração em tempo real</h3>
+        <p>Compartilhe arquivos e pastas com segurança com amigos, família e colegas para colaboração ao vivo. Nenhum anexo de email necessário.</p>
+      </div>
+      <div class="cartao-recurso">
+        <img src="img/icon-any-file.svg" alt="Tipos de Arquivo" class="icone-recurso">
+        <h3>Armazene qualquer tipo de arquivo</h3>
+        <p>Quer você esteja compartilhando fotos de férias ou documentos de trabalho, o Fylo está aqui para você, permitindo que todos os tipos de arquivo sejam armazenados e compartilhados com segurança.</p>
+      </div>
+    </section>
 
-  Access your files, anywhere
+    <section class="produtividade">
+      <div class="produtividade-conteudo">
+        <img src="img/illustration-stay-productive.png" alt="Mantenha-se Produtivo" class="produtividade-imagem">
+        <div class="produtividade-texto">
+          <h2>Mantenha-se produtivo, onde quer que você esteja</h2>
+          <p>Nunca deixe a localização ser um problema ao acessar seus arquivos. O Fylo o cobre para todas as suas necessidades de armazenamento de arquivos.</p>
+          <p>Compartilhe arquivos e pastas com segurança com amigos, família e colegas para colaboração ao vivo. Nenhum anexo de email necessário.</p>
+          <a href="#" class="link-com-seta">Veja como o Fylo funciona <img src="img/icon-arrow.svg" alt="Seta"></a>
+        </div>
+      </div>
+    </section>
 
-  The ability to use a smartphone, tablet, or computer to access your account means your 
-  files follow you everywhere.
+    <section class="depoimentos">
+      <div class="cartao-depoimento">
+        <p class="texto-depoimento">O Fylo melhorou a produtividade da nossa equipe de forma exponencial. Desde que fizemos a mudança, nossa equipe se tornou uma máquina de colaboração bem-oleada.</p>
+        <div class="autor-depoimento">
+          <img src="img/profile-1.jpg" alt="Satish Patel" class="avatar">
+          <div>
+            <p class="nome-autor">Satish Patel</p>
+            <p class="titulo-autor">Fundador e CEO, Huddle</p>
+          </div>
+        </div>
+      </div>
+      <div class="cartao-depoimento">
+        <p class="texto-depoimento">O Fylo melhorou a produtividade da nossa equipe de forma exponencial. Desde que fizemos a mudança, nossa equipe se tornou uma máquina de colaboração bem-oleada.</p>
+        <div class="autor-depoimento">
+          <img src="img/profile-2.jpg" alt="Bruce McKenzie" class="avatar">
+          <div>
+            <p class="nome-autor">Bruce McKenzie</p>
+            <p class="titulo-autor">Fundador e CEO, Huddle</p>
+          </div>
+        </div>
+      </div>
+      <div class="cartao-depoimento">
+        <p class="texto-depoimento">O Fylo melhorou a produtividade da nossa equipe de forma exponencial. Desde que fizemos a mudança, nossa equipe se tornou uma máquina de colaboração bem-oleada.</p>
+        <div class="autor-depoimento">
+          <img src="img/profile-3.jpg" alt="Iva Boyd" class="avatar">
+          <div>
+            <p class="nome-autor">Iva Boyd</p>
+            <p class="titulo-autor">Fundadora e CEO, Huddle</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  Security you can trust
+    <section class="cta" id="cta">
+      <h2>Tenha acesso antecipado hoje</h2>
+      <p>Leva apenas um minuto para se inscrever e nosso nível de inicialização gratuito é extremamente generoso. Se tiver dúvidas, nossa equipe de suporte ficará feliz em ajudá-lo.</p>
+      <form class="formulario-cta" id="formulario-cta" novalidate>
+        <input type="email" id="input-email" placeholder="Digite seu email" required>
+        <span class="mensagem-erro" id="mensagem-erro"></span>
+        <button type="submit" class="botao-primario">Comece Gratuitamente</button>
+      </form>
+    </section>
 
-  2-factor authentication and user-controlled encryption are just a couple of the security 
-  features we allow to help secure your files.
-
-  Real-time collaboration
-
-  Securely share files and folders with friends, family and colleagues for live collaboration. 
-  No email attachments required.
-
-  Store any type of file
-
-  Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
-  file types to be securely stored and shared.
-
-  Stay productive, wherever you are
-
-  Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
-  storage needs.
-
-  Securely share files and folders with friends, family and colleagues for live collaboration. No email 
-  attachments required.
-
-  See how Fylo works
-
-  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-  become a well-oiled collaboration machine.
-
-  Satish Patel
-  Founder & CEO, Huddle
-
-  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-  become a well-oiled collaboration machine.
-
-  Bruce McKenzie
-  Founder & CEO, Huddle
-
-  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-  become a well-oiled collaboration machine.
-
-  Iva Boyd
-  Founder & CEO, Huddle
-
-  Get early access today
-
-  It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
-  questions, our support team would be happy to help you.
-
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-  dolore magna aliqua
-
-  +1-543-123-4567
-  example@fylo.com
-
-  About Us
-  Jobs
-  Press
-  Blog
-
-  Contact Us
-  Terms
-  Privacy
-
-      <footer class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+    <footer>
+      <div class="rodape-conteudo">
+        <div class="rodape-logo">
+          <img src="img/logo.svg" alt="Logo Fylo">
+        </div>
+        <div class="secao-rodape">
+          <p><img src="img/icon-phone.svg" alt="Telefone"> +55 (84) 92144-9839</p>
+          <p><img src="img/icon-email.svg" alt="Email"> lu1zx.dev@gmail.com</p>
+        </div>
+        <div class="secao-rodape">
+          <a href="#">Sobre Nós</a>
+          <a href="#">Vagas</a>
+          <a href="#">Imprensa</a>
+          <a href="#">Blog</a>
+        </div>
+        <div class="secao-rodape">
+          <a href="#">Entre em Contato</a>
+          <a href="#">Termos</a>
+          <a href="#">Privacidade</a>
+        </div>
+        <div class="rodape-redes-sociais">
+          <a href="#"><img src="img/icon-facebook.svg" alt="Facebook"></a>
+          <a href="#"><img src="img/icon-twitter.svg" alt="Twitter"></a>
+          <a href="#"><img src="img/icon-instagram.svg" alt="Instagram"></a>
+        </div>
+      </div>
+      <div class="atribuicao">
+        Desafio de <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. Codado por <a href="https://www.github.com/Lu1zJ0s3">Luiz</a>.
+      </div>
     </footer>
-</body>
-</html>
+    <script src="script.js"></script>
+  </body>
+  </html>
